@@ -1,0 +1,36 @@
+/* -------------------------- */
+/* BASIC SETUP */
+/* -------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main { height: 100vh; }
+
+html {
+    font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
+    color: rgb(65, 65, 65);
+    font-size: 1.25rem;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+
+.clearfix { zoom: 1 }
+.clearfix::after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+/* -------------------------- */
+/* HEADER */
+/* -------------------------- */
+
+
+/* ------- NAV -------- */
+
