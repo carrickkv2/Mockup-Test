@@ -27,10 +27,50 @@ html {
     visibility: hidden;
 }
 
+/* ---------------------------------------- */
+/* REUSEABLE COMPONENTS */
+/* ---------------------------------------- */
+
+.row {
+    margin: 0 auto;
+    max-width: 1140px;
+}
+
 /* -------------------------- */
 /* HEADER */
 /* -------------------------- */
 
 
-/* ------- NAV -------- */
 
+/* -------------------------- */
+/* NAV */
+/* -------------------------- */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.logo {
+    width: 40px;
+    position: relative;
+    left: -500px;
+    cursor: pointer;
+}
+
+.main_nav {
+    position: relative;
+    left: -400px;
+    top: -35px;
+}
+
+.main_nav li, a {
+    color: rgba(0, 0, 0, 0.733);
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0rem 0.4rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+}
