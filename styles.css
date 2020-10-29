@@ -46,7 +46,10 @@ html {
 /* HEADER */
 /* -------------------------- */
 
-header { height: 100vh; }
+header { 
+    height: 100vh; 
+    background-color: #f4f7f9;
+}
 
 #main_image {
     display: block;
@@ -105,11 +108,10 @@ header { height: 100vh; }
     font-size: 30px;
 }
 
-
-
 /* -------------------------- */
 /* NAV */
 /* -------------------------- */
+
 nav {
     position: relative;
     display: flex;
