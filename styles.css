@@ -8,7 +8,13 @@
     box-sizing: border-box;
 }
 
-main { height: 100vh; }
+main { 
+    min-height: 100vh;
+    background: white;
+    position: relative;
+    z-index: 1;
+    padding: 2rem;
+}
 
 html {
     font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
@@ -40,16 +46,76 @@ html {
 /* HEADER */
 /* -------------------------- */
 
+header { height: 100vh; }
+
+#main_image {
+    display: block;
+    float: right;
+    height: 93vh;
+    max-width: 67vw;
+    margin-top: -70px;
+    overflow: hidden;
+}
+
+#search_64 {
+    position: relative;
+    z-index: 1;
+    float: right;
+    right: 170px;
+    top: -21px;
+}
+
+#user_64 {
+    position: relative;
+    z-index: 1;
+    float: right;
+    right: 200px;
+    top: -20px;
+}
+
+.main_text_box { z-index: -1; }
+
+.main_text {
+    position: relative;
+    display: inline-block;
+    top: 180px;
+    left: 120px;
+    font-family: 'Caveat', cursive, sans-serif;
+    color: #7a7a7a;
+    font-size: 1.875rem;
+    transform: rotate(-5deg) skew(-5deg);
+}
+
+.perfect_gift {
+    position: absolute;
+    display: inline-block;
+    top: 320px;
+    left: 120px;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.sweat {
+    position: absolute;
+    display: inline-block;
+    top: 425px;
+    left: 120px;
+    color: #b33939;
+    font-weight: 400;
+    font-size: 30px;
+}
+
 
 
 /* -------------------------- */
 /* NAV */
 /* -------------------------- */
 nav {
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 40px;
+    top: 47px;
 }
 
 .logo {
@@ -74,3 +140,21 @@ nav {
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 400;
 }
+
+/* -------------------------- */
+/* FOOTER */
+/* -------------------------- */
+
+footer {
+    /* place on the bottom */
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+    background: #252a47;
+    display: grid;
+    place-items: center;
+    padding: 50px;
+}
+
