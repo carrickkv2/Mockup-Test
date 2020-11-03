@@ -285,3 +285,45 @@ footer {
     top: -1.05rem;
     z-index: 1;
 }
+
+.searchbar input[type="text"]{
+  border: 0;
+  padding: 0 0px;
+  width: 0px;
+  height: 35px;
+  border-radius: 3px;
+  z-index: 1;
+  transition: all 0.3s ease;
+}
+
+.searchbar .icon {
+    position: absolute;
+    top: 0;
+    right: -34px;
+    z-index: 1;
+    border-radius: 3px;
+    width: 35px;
+    height: 100%;
+    background: none;
+    transition: all 0.5s 0.3s ease;
+}
+
+.searchbar .icon i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+.searchbar .icon.active {
+    background: #062333;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.searchbar input[type="text"].active {
+    width: 250px;
+    padding: 0 10px;
+    transition: all 0.5s 0.2s ease;
+}
