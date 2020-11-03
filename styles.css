@@ -43,6 +43,28 @@ html {
     max-width: 1140px;
 }
 
+/* ------- BUTTONS -------- */
+
+.btn:link,
+.btn:visited {
+    display: inline-block;
+    text-decoration: none;
+    position: relative;
+    top: 22rem;
+    left: -1.2rem;
+    background-color: #e67e22;
+    padding: 0.9rem 1.8rem;
+    margin-top: 1rem;
+    color: #fff;
+    border-radius: 300px;
+    transition: background-color 0.4s, color 0.4s;
+}
+
+.btn:hover,
+.btn:active {
+    background-color: #cf6d17;
+}
+
 /* -------------------------- */
 /* HEADER */
 /* -------------------------- */
@@ -56,7 +78,7 @@ header {
 #main_image {
     display: block;
     position: relative;
-    left: 2.5rem;
+    left: 5.5rem;
     float: right;
     height: 93vh;
     max-width: 67vw;
@@ -66,10 +88,10 @@ header {
 
 #search_64 {
     position: relative;
-    z-index: 1;
     float: right;
     right: 8.5rem;
     top: -1.05rem;
+    z-index: 1;
 }
 
 #user_64 {
@@ -78,6 +100,7 @@ header {
     float: right;
     right: 10rem;
     top: -1rem;
+    z-index: 1;
 }
 
 .main_text_box { z-index: -1; }
@@ -110,19 +133,6 @@ header {
     color: #b33939;
     font-weight: 400;
     font-size: 1.5rem;
-}
-
-.btn {
-    display: inline-block;
-    text-decoration: none;
-    position: relative;
-    top: 22rem;
-    left: -1.2rem;
-    background-color: #e67e22;
-    padding: 0.9rem 1.8rem;
-    margin-top: 1rem;
-    color: #fff;
-    border-radius: 300px;
 }
 
 .popular {
@@ -172,20 +182,34 @@ header {
     width: 10.7rem;
 }
 
-#Greater_than {
+#Greater_than:link,
+#Greater_than:visited {
     display: inline-block;
     position: relative;
     bottom: -1.5rem;
     left: -0.5rem; 
     padding-right: 1rem;   
+    transition: color 0.3s;
 }
 
-#Greater_than1 {
+#Greater_than:hover,
+#Greater_than:active {
+    color: #828282;
+}
+
+#Greater_than1:link,
+#Greater_than1:visited {
     display: inline-block;
     position: relative;
     bottom: -1.5rem;
     left: -0.5rem;
     padding-right: 1rem;
+    transition: color 0.3s;
+}
+
+#Greater_than1:hover,
+#Greater_than1:active {
+    color: #828282;
 }
 
 #Greater_than2 {
@@ -251,6 +275,13 @@ footer {
     padding: 50px;
     z-index: -1;
     height: 30vh;
-
 }
 
+
+.searchbar {
+    position: relative;
+    float: right;
+    right: 8.5rem;
+    top: -1.05rem;
+    z-index: 1;
+}
