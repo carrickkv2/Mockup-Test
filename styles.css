@@ -77,8 +77,8 @@ header {
 
 #main_image {
     display: block;
-    position: relative;
-    left: 5.5rem;
+    position: absolute;
+    left: 30rem;
     float: right;
     height: 93vh;
     max-width: 67vw;
