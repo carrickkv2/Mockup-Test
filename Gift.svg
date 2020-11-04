@@ -1,24 +1,4 @@
-<!DOCTYPE html>
-<html>
-
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Oops! Page not found</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="animation.css">
-        <link rel="stylesheet" href="normalize.css">
-        <link rel="stylesheet" href="svg.css">
-        <link rel="stylesheet" href="7.1 Grid.css">
-        <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet"> 
-    </head>
-
-    <body>
-        
-        <div class="svg_container" style="margin-top: 20px;">
-<svg height="auto" viewBox="0 0 859 683" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="859" height="683" viewBox="0 0 859 683" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g id="Gift">
 <g id="tree">
 <path id="tree3" d="M243.167 459.195C296.849 459.195 340.368 415.677 340.368 361.995C340.368 308.312 296.849 264.794 243.167 264.794C189.485 264.794 145.967 308.312 145.967 361.995C145.967 415.677 189.485 459.195 243.167 459.195Z" fill="#E6E6E6"/>
@@ -71,26 +51,3 @@
 <path id="Vector_28" d="M396.005 301.982C396.36 296.538 403.228 296.351 408.684 296.3C414.14 296.248 420.662 296.443 423.749 291.944C425.789 288.971 425.4 284.844 423.714 281.656C422.029 278.469 419.256 276.017 416.529 273.659C409.488 267.57 402.231 261.53 393.777 257.632C385.323 253.735 375.416 252.16 366.649 255.289C355.879 259.132 341.32 278.915 340.063 290.281C338.805 301.647 343.348 313.233 351.004 321.727C358.661 330.22 376.186 326.793 387.215 329.815C380.51 320.325 384.93 303.082 395.671 298.651L396.005 301.982Z" fill="#2F2E41"/>
 </g>
 </svg>
-        </div>
-
-        <div class="text_404">
-            404
-        </div>
-
-        <div class="oops">
-            <p class="oops_text">Oops!</p>
-            <p class="we_cant">We can't seem to find the page you are looking for.</p>
-        </div>
-        
-        <div class="helpful">
-            <p>Here are some helpful links instead:</p>
-            <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Help</a></li>
-                <li><a href="">Contact</a></li>
-            </ul>
-        </div>
-        
-        <script src="" async defer></script>
-    </body>
-</html>
